@@ -124,16 +124,6 @@ function createRow() {
     let defREV = createInput(0, 200);
     let spdEV = createInput(0, 200);
 
-    
-    
-    
-    hpIV.value = 40;
-    energyIV.value = 40;
-    atkIV.value = 40;
-    defIV.value = 40;
-    atkRIV.value = 40;
-    defRIV.value = 40;
-    spdIV.value = 40;
 
     let posNat = createPosNatureDropdown();
     let negNat = createNegNatureDropdown();
