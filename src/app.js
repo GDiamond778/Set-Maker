@@ -17,10 +17,10 @@ function createTable() {
     headerNames.forEach(function (k) {
         let th = document.createElement("th");
         th.appendChild(document.createTextNode(k));
-        if (k == "UPs" || k == "TPs") {
+        if (k == "Stars") {
             th.colSpan = 7;
         }
-        if (k == "Personality") {
+        if (k == "Nature") {
             th.colSpan = 3;
         }
         if (k == "Moves") {
