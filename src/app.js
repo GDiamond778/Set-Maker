@@ -116,13 +116,13 @@ function createRow() {
     let pokeDropdown = createPokeDropdown();
     let setNameInput = createTextInput();
     
-    let hpEV = createInput(0, 200);
-    let energyEV = createInput(0, 200);
-    let atkEV = createInput(0, 200);
-    let defEV = createInput(0, 200);
-    let atkREV = createInput(0, 200);
-    let defREV = createInput(0, 200);
-    let spdEV = createInput(0, 200);
+    let hpEV = createInput(0, 5);
+    let energyEV = createInput(0, 5);
+    let atkEV = createInput(0, 5);
+    let defEV = createInput(0, 5);
+    let atkREV = createInput(0, 5);
+    let defREV = createInput(0, 5);
+    let spdEV = createInput(0, 5);
 
 
     let posNat = createPosNatureDropdown();
