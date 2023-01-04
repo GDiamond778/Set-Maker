@@ -77,14 +77,6 @@ function createSet(row) {
     set.name = row[0].value;
     set.setName = row[1].value;
 
-    set.ivs = {};
-    set.ivs.hp = row[2].value;
-    set.ivs.energy = row[3].value;
-    set.ivs.attack = row[4].value;
-    set.ivs.defense = row[5].value;
-    set.ivs.attackR = row[6].value;
-    set.ivs.defenseR = row[7].value;
-    set.ivs.speed = row[8].value;
 
     set.evs = {};
     set.evs.hp = row[9].value;
@@ -132,13 +124,8 @@ function createRow() {
     let defREV = createInput(0, 200);
     let spdEV = createInput(0, 200);
 
-    let hpIV = createInput(0, 40);
-    let energyIV = createInput(0, 40);
-    let atkIV = createInput(0, 40);
-    let defIV = createInput(0, 40);
-    let atkRIV = createInput(0, 40);
-    let defRIV = createInput(0, 40);
-    let spdIV = createInput(0, 40);
+    
+    
     
     hpIV.value = 40;
     energyIV.value = 40;
