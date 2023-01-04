@@ -1,7 +1,7 @@
 var body = document.getElementById("body");
 var table;
-var headerNames = ["", "", "UPs", "TPs", "Personality", "", "", "", "Moves"];
-var subHeaderNames = ["Loomian", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "1st", "2nd", "3rd", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
+var headerNames = ["", "", "Stars", "Nature", "", "", "", "Moves"];
+var subHeaderNames = ["Kinalite", "Set Name", "HP", "Energy", "Attack", "Defense", "Attack R", "Defense R", "Speed", "1st", "2nd", "3rd", "Ability", "Item", "Level", "Move 1", "Move 2", "Move 3", "Move 4"]
 let allElements = [];
 
 function createTable() {
